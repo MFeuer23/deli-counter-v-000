@@ -1,4 +1,4 @@
-require "pry"
+require 'pry'
 # Write your code here.
 def line(katz_deli)
   if katz_deli.size == 0  
@@ -11,5 +11,5 @@ def line(katz_deli)
     end
     puts "The line is currently: #{order_string}"
   end
-    
+    binding.pry
   end
