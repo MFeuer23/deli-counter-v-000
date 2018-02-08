@@ -3,10 +3,10 @@ def line(katz_deli)
   if katz_deli.size == 0  
     puts "The line is currently empty."
   else
-    print "The line is currently: "
+    print "The line is currently:"
     number = 1
     katz_deli.each do |person|
-      print "#{number}. #{person} "
+      print " #{number}. #{person}"
       number += 1
     end
   end
