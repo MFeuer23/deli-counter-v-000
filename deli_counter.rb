@@ -6,7 +6,7 @@ def line(katz_deli)
    
     number = 1
     katz_deli.each do |person|
-      puts "#{number}. #{person}"
+      print "#{number}. #{person}"
       number += 1
     end
   end
