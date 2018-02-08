@@ -13,5 +13,6 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  spotkatz_deli.size
+  line = katz_deli.size + 1
+  puts "Welcome, #{name}. You are number #{line} in line."
 end
