@@ -8,11 +8,7 @@ def line(katz_deli)
     
        puts "The line is currently: #{order}"
       end
-    
-   # number = 1
-   # katz_deli.each do |person|
-   #   print  #{number}. #{person}
-   #   number += 1
+
     
   end
 end
