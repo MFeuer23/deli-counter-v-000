@@ -7,7 +7,7 @@ def line(katz_deli)
     katz_deli.each_with_index do |person, index| 
       order_string = " #{index + 1}. #{person}"
     end
-    puts "status order_string"  
+    puts status order_string  
     
   end
 end
