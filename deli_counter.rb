@@ -5,9 +5,9 @@ def line(katz_deli)
   else
     katz_deli.each_with_index do |person, index| 
       order = print "#{index + 1}. #{person}"
-    end
+    
        puts "The line is currently: #{order}"
-      
+      end
     
    # number = 1
    # katz_deli.each do |person|
