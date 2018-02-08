@@ -8,6 +8,6 @@ def line(katz_deli)
    # katz_deli.each do |person|
    #   print " #{number}. #{person}"
    #   number += 1
-    end
+    
   end
 end
