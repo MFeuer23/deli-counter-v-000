@@ -8,7 +8,8 @@ def line(katz_deli)
     katz_deli.each_with_index do |person, index| 
       order_string << " #{index + 1}. #{person}"
     end
-    puts "The line is currently:" order_string  
+    puts "The line is currently:" order_string
+  end
     
   end
 end
