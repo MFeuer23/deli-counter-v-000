@@ -5,7 +5,7 @@ def line(katz_deli)
   else
     status = "The line is currently:"
     katz_deli.each_with_index do |person, index| 
-      order_string " #{index + 1}. #{person}"
+      order_string = " #{index + 1}. #{person}"
     end
     puts "#{status} #{order_string}"  
     
